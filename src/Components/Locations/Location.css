@@ -1,0 +1,32 @@
+*/ {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+/* .tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: #14dc38;
+    padding: 500px 0px 500px ;
+} */
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    color: #000000;
+  
+}
+.tarjeta-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+  }
+  /* .palette {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  } */
