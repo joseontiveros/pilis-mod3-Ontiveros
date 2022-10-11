@@ -1,16 +1,17 @@
 .card-new-container {
-  display:block;
+  display: flex;
   flex-direction: column;
-  
-  width: 10px;
+  align-items: center;
 }
 
 .card-form {
   display: flex;
   flex-direction: column;
-  align-items:flex-end;
-  width: 150px;
-  padding-left: 50px;
+  align-items: center;
+ /*  width: 300px;
+  height: 200px; */
+  background-color:white;
+ /*  padding: 20px; */
 }
 
 .input-card-name-form {
@@ -26,17 +27,12 @@
   margin: 25px 0px 5px 0px;
 }
 
-.input-card-name-form:focus {
+.card-palette-name-form:focus {
   outline: none;
 }
 
-input[type="color"] {
-  appearance: none;
-  background: none;
-  border: 0;
-  cursor: pointer;
-  height: 40px;
-  padding: 0;
-  width: 100%;
-  margin-top: 25px;
+.btn-form {
+height: 30px;
+background-color: #ded5e6;
+
 }

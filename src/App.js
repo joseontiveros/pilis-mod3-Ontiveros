@@ -2,7 +2,7 @@ import './App.css';
 import { useEffect, useState,useContext } from "react";
 import { getLocation } from "./service";
 import Locations from "./Components/Locations/Locations";
-import CardCreation from "./routes/CardCreation";
+import CardCreation from "./routes/Card/CardCreation";
 import { PlaceContext } from "./context/PlaceContext";
 import { TempContext } from "./context/TempContext";
 //import {Routes, Route} from 'react-router-dom'
@@ -31,7 +31,7 @@ function App() {
     <div className="App">
      
        {/*  {console.log("ubicacion", Place.current_weather)} */}
-        <Locations/>      
+       {/*  <Locations/>       */}
         <CardCreation/>
     
     </div>

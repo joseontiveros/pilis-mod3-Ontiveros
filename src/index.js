@@ -5,14 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { TempContextProvider } from './context/TempContext';
 import { PlaceContextProvider } from './context/PlaceContext';
+import { CardLocationContextProvider } from './context/CardLocationContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  <CardLocationContextProvider>
     <PlaceContextProvider>
     <TempContextProvider>
     <App />
     </TempContextProvider>
     </PlaceContextProvider>
+  </CardLocationContextProvider>
   </React.StrictMode>
 );
 
