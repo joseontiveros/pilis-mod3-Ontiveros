@@ -4,16 +4,16 @@
     transition: box-shadow 0.2s ease;
     border-radius: 10px;
     padding: 25px;
-    background-color: beige;
+    background-color:#00c0e5;
   }
- /*  .palette-container:hover {
+ .card-container:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }  */
   
-   .palette {
+   .card {
     display: flex;
     flex-direction: column;
-    background-color: #dcecdb;
+    background-color:burlywood;
   }
   
   .hex-code {
@@ -24,17 +24,7 @@
     transition: background-color 0.5s ease;
   }
   
-  /* .color {
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    height: 70px;
-    cursor: pointer;
-  }
   
-  .color:hover .hex-code {
-    background-color: #5e5e5e33;
-  }
   
   .c0{
     border-radius: 10px 10px 0 0;
@@ -44,9 +34,7 @@
     border-radius: 0 0 10px 10px;
   }
   
-  h3 {
-    margin-bottom: 10px;
-  } */
+ 
   
   .color {
     color: #fd5454;
@@ -55,7 +43,7 @@
   }
   
   .Close {
-    float: right;
+    float:right;
     display:flex;
     text-align:center;
     height: 34px;
@@ -68,10 +56,10 @@
     transition: background-color 0.2s ease;
   }
   
- /*  .fav:hover {
+  .Close:hover {
     cursor: pointer;
-    background-color: #f8f8f8;
-  } */
+    background-color:royalblue;
+  }
   
   .card-actions {
     display: flex;
@@ -80,18 +68,42 @@
     margin-top: 10px;
   }
   
-  /* .btn-see-more {
+  .btn-see-more {
     text-decoration: none;
     border: 1px solid #e9e9e9;
     padding: 10px;
     font-size: 12px;
     border-radius: 5px;
     transition: color 0.2s ease, background-color 0.2s ease;
-    color: #000;
+    color:red;
   }
   
   .btn-see-more:hover {
     cursor: pointer;
     background-color: rgb(37, 37, 37);
     color: #fff;
-  } */
+  }
+  .logo {
+    height: 50;
+    width: 50;
+  }
+  .logo-container {
+    height: 100px;
+    width: 100px;
+  }
+  .type{
+    color:white;
+    line-height:0.5em;
+  }
+  .temperature{
+    color:red;
+    line-height:0.5em;
+  }
+  .wind{
+    color: blue;
+    
+  }
+  span{
+    color:white;
+    
+  }
