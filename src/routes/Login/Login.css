@@ -10,7 +10,7 @@
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   display: block;
-  width: 50%;
+  width: 100%;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #000;
@@ -29,8 +29,8 @@
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
-  font-size: 15px;
-  background-color: black;
+  font-size: 18px;
+  background-color:blueviolet;
   color: white;
   font-weight: bolder;
   border: none;
@@ -39,3 +39,6 @@
   justify-content: center;
   margin-top: 25px;
 }
+.btn-form:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}  

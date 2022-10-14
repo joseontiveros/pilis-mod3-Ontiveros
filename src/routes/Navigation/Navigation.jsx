@@ -13,7 +13,7 @@ const Navigation = () => {
     if (userStored) {
       setCurrentUser(JSON.parse(userStored))
     }
-  }, [])
+  },[])
 
   const handleSignOut = () => {
     setCurrentUser(null);
@@ -27,11 +27,11 @@ const Navigation = () => {
         </Link>
         <div className='nav-links-container'>
           {currentUser ? (
-            <Link className='nav-link' to='/palette/create'>
-              Nueva Paleta
+            <Link className='nav-link' to='/Card/create'>
+              Nueva Tarjeta
             </Link>
           ) : (
-            <span className='nav-link'>Nueva Paleta</span>
+            <span className='nav-link'>Nueva Tarjeta</span>
           )}
 
           {currentUser ? (

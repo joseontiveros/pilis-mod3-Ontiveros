@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Navigation />}>
             <Route index element={<Home />} />
             <Route path="login" element={<LoginRef />} />
-            <Route path="palette/create" element={<CardCreation />} />
+            <Route path="card/create" element={<CardCreation />} />
           </Route>
         </Routes>
       </div>

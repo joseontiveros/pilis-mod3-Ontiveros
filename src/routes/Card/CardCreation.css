@@ -10,8 +10,9 @@
   align-items: center;
   width:auto;
   height: auto;
-  background-color:white;
- /*  padding: 20px; */
+  background-color:orangered;
+  padding-bottom:  20px;
+  border-radius: 5%;
 }
 
 .input-card-name-form {
@@ -22,21 +23,23 @@
   display: block;
   width: 80%;
   border: none;
-  border-radius: 0;
+  border-radius: 5%;
   border-bottom: 1px solid #000;
-  margin: 25px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
   text-transform: uppercase;
-}
-
-.card-palette-name-form:focus {
-  outline: none;
 }
 
 .btn-form {
-height: 30px;
 background-color: #ded5e6;
-
 }
+.btn-form:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}  
 input {
+  font-size: 18px;
   text-transform: uppercase;
+}
+span{
+  font-size: 20px;
+  margin:20px;
 }

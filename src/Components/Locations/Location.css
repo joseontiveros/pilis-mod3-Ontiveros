@@ -3,13 +3,17 @@
     flex-direction: column;
     transition: box-shadow 0.2s ease;
     border-radius: 10px;
-    padding: 25px;
+    padding: 10px;
     background-color:#00c0e5;
-    height: auto;
+    height:auto;
+    text-align: left;
+    position: relative;
+   /*  display: inline-block; */
+    text-align: center;
   }
  .card-container:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }  */
+  }  
   
    .card {
     display: flex;
@@ -46,15 +50,16 @@
   .Close {
     float:right;
     display:flex;
- /*    text-align:center; */
     height: 34px;
     width: 34px;
-  /*   justify-content:center; */
     align-items: center;
-    border: 1px solid transparent;
+    border: 5px solid transparent;
     padding: 5px;
     border-radius: 5px;
     transition: background-color 0.2s ease;
+    position: absolute;
+    top: 0px;
+    right: 0px;
   }
   
   .Close:hover {
@@ -94,21 +99,60 @@
   }
   .type{
     color:white;
-    font-size: 20px;
+    font-size: 18px;
+    margin:0px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    line-height: 4em;
+    font-weight:bolder;
+    text-decoration:solid;
   }
+  .type2{
+    color:white;
+    font-size: 18px;
+    margin:0px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    line-height: 4em;
+    font-weight:bolder;
+    text-decoration:solid;
+  }
+
   .temperature{
-    color:red;
+    color:white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-weight:bolder;
+    text-decoration:solid; 
   }
   .wind{
-    color: blue;
-  
+    color:white;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    font-weight:bolder;
+    text-decoration:solid;
   }
   span{
+    font-size: 25px;
     color:white;
+    font-weight:lighter; 
+    margin:0px;
   }
   h1,h3{
-    line-height: 2em;
+    line-height: 1.5em;
     margin:auto;
     color:white;
-    align-content: flex-end;
+    
+  }
+  h4{
+    font-weight:lighter; 
+    line-height: 1.5em;
+    text-decoration: solid;
+    margin:auto;
+    color:white;
+    text-align:left;
   }
