@@ -5,6 +5,7 @@
     border-radius: 10px;
     padding: 25px;
     background-color:#00c0e5;
+    height: auto;
   }
  .card-container:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -45,10 +46,10 @@
   .Close {
     float:right;
     display:flex;
-    text-align:center;
+ /*    text-align:center; */
     height: 34px;
     width: 34px;
-    justify-content:center;
+  /*   justify-content:center; */
     align-items: center;
     border: 1px solid transparent;
     padding: 5px;
@@ -93,17 +94,21 @@
   }
   .type{
     color:white;
-    line-height:0.5em;
+    font-size: 20px;
   }
   .temperature{
     color:red;
-    line-height:0.5em;
   }
   .wind{
     color: blue;
-    
+  
   }
   span{
     color:white;
-    
+  }
+  h1,h3{
+    line-height: 2em;
+    margin:auto;
+    color:white;
+    align-content: flex-end;
   }

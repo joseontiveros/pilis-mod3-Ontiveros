@@ -10,6 +10,7 @@ import "./CardCreation.css";
   const navigate = useNavigate();
   const {  register,handleSubmit,formState: { errors },} = useForm({});
 
+  
   //Recibo los datos del form
   const onSubmit = (data) => {
     //Se reinician los id luego de quitar una tarjeta
@@ -38,7 +39,7 @@ import "./CardCreation.css";
       <form className="card-form" onSubmit={handleSubmit(onSubmit)}>
         
   
-        <input className="input-card-name-form" type="text" placeholder="Ubicacion"
+        <input className="input-card-name-form" type="text" placeholder="Ubicacion"  
         {...register("lugar", { required: "Debe ingresar nombre de la ubicacion",})}/>
         <p>{errors.tarjetaName?.message}</p>
         

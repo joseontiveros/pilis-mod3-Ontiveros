@@ -1,0 +1,26 @@
+.search{
+  color: blue;
+  background: none;
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 50%;
+  border:#000;
+  border-radius: 0;
+  border-bottom: 1px solid #000;
+  margin: 10px 0;
+}
+
+header {
+    padding: 0px;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction:row;
+  }
+  
+  header {
+    padding: 0px;
+  }
