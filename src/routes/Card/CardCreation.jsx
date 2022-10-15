@@ -22,7 +22,6 @@ import { ContadorContext } from "../../context/ContadorContext";
       getUrl()   
          .then((url) => {
           imagenes = url.filter((dir)=>(dir.id===conta)).map((dir)=>(dir.url))
-           console.log("muestro imagenes",imagenes);
             //Se crea la nueva tarjeta 
            const cardNew = {
             id: CardLocation.length + 1,

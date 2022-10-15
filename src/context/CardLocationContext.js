@@ -8,7 +8,6 @@ export const CardLocationContext = createContext({
 export const CardLocationContextProvider = ({ children }) => {
   const [CardLocation, setCardLocation] = useState([]);
   const value = { CardLocation, setCardLocation };
-
   return (
     <CardLocationContext.Provider value={value}>
       {children}
