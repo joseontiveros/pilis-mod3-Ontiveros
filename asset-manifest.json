@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/location-card/static/css/main.176f9a37.css",
-    "main.js": "/location-card/static/js/main.b026e88b.js",
-    "static/js/787.03ea14f6.chunk.js": "/location-card/static/js/787.03ea14f6.chunk.js",
-    "static/media/Logo_clima.png": "/location-card/static/media/Logo_clima.255078d862f1eba02987.png",
-    "index.html": "/location-card/index.html",
-    "main.176f9a37.css.map": "/location-card/static/css/main.176f9a37.css.map",
-    "main.b026e88b.js.map": "/location-card/static/js/main.b026e88b.js.map",
-    "787.03ea14f6.chunk.js.map": "/location-card/static/js/787.03ea14f6.chunk.js.map"
+    "main.css": "/pilis-mod3-Ontiveros/static/css/main.176f9a37.css",
+    "main.js": "/pilis-mod3-Ontiveros/static/js/main.f179aa8e.js",
+    "static/js/787.03ea14f6.chunk.js": "/pilis-mod3-Ontiveros/static/js/787.03ea14f6.chunk.js",
+    "static/media/Logo_clima.png": "/pilis-mod3-Ontiveros/static/media/Logo_clima.255078d862f1eba02987.png",
+    "index.html": "/pilis-mod3-Ontiveros/index.html",
+    "main.176f9a37.css.map": "/pilis-mod3-Ontiveros/static/css/main.176f9a37.css.map",
+    "main.f179aa8e.js.map": "/pilis-mod3-Ontiveros/static/js/main.f179aa8e.js.map",
+    "787.03ea14f6.chunk.js.map": "/pilis-mod3-Ontiveros/static/js/787.03ea14f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.176f9a37.css",
-    "static/js/main.b026e88b.js"
+    "static/js/main.f179aa8e.js"
   ]
 }
